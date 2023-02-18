@@ -6,7 +6,7 @@ import time
 target_hash = input("Passord-hash\n")
 
 # Define the characters to use in the brute force
-characters = "abcdefghijklmnopqrstuvwxyz0123456789"
+characters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_!.,=)(/&%$#0123456789"
 
 # Define the maximum length of the plaintext string
 max_length = 8
